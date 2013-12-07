@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-geschichtsfrkl
 Version:	1.1
-Release:	2
+Release:	3
 Summary:	BibLaTeX style for historians
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/geschichtsfrkl
