@@ -1,12 +1,6 @@
-# revision 25886
-# category Package
-# catalog-ctan /macros/latex/contrib/biblatex-contrib/geschichtsfrkl
-# catalog-date 2012-04-08 13:49:02 +0200
-# catalog-license lppl
-# catalog-version 1.1
 Name:		texlive-geschichtsfrkl
-Version:	1.1
-Release:	9
+Version:	1.4
+Release:	1
 Summary:	BibLaTeX style for historians
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/geschichtsfrkl
@@ -34,13 +28,10 @@ Freiburg (Germany).
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/geschichtsfrkl/geschichtsfrkl.bbx
-%{_texmfdistdir}/tex/latex/geschichtsfrkl/geschichtsfrkl.cbx
-%doc %{_texmfdistdir}/doc/latex/geschichtsfrkl/README
-%doc %{_texmfdistdir}/doc/latex/geschichtsfrkl/geschichtsfrkl.pdf
+%{_texmfdistdir}/tex/latex/geschichtsfrkl
+%doc %{_texmfdistdir}/doc/latex/geschichtsfrkl
 #- source
-%doc %{_texmfdistdir}/source/latex/geschichtsfrkl/geschichtsfrkl.dtx
-%doc %{_texmfdistdir}/source/latex/geschichtsfrkl/geschichtsfrkl.ins
+%doc %{_texmfdistdir}/source/latex/geschichtsfrkl
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,11 +42,3 @@ Freiburg (Germany).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1-1
-+ Revision: 790576
-- Import texlive-geschichtsfrkl
-- Import texlive-geschichtsfrkl
-
