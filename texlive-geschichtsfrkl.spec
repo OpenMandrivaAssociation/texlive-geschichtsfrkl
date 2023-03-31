@@ -1,6 +1,6 @@
 Name:		texlive-geschichtsfrkl
 Version:	42121
-Release:	1
+Release:	2
 Summary:	BibLaTeX style for historians
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/geschichtsfrkl
