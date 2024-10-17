@@ -3,7 +3,7 @@ Version:	42121
 Release:	2
 Summary:	BibLaTeX style for historians
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/geschichtsfrkl
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/geschichtsfrkl
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/geschichtsfrkl.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/geschichtsfrkl.doc.r%{version}.tar.xz
